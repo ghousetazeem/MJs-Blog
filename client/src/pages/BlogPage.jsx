@@ -1,6 +1,6 @@
 import Post from "../components/Post";
 
-export default function IndexPage() {
+export default function BlogPage() {
     return (
         <>
             <Post />

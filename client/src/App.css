@@ -1,9 +1,9 @@
-*{
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@500&display=swap');
 
-body {
-  color: #222;
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+  color: #444955;
 }
 
 img {
@@ -12,7 +12,7 @@ img {
 
 main {
   padding: 10px;
-  max-width: 800px;
+  width: 86%;
   margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ header {
   justify-content: space-between;
   margin-bottom: 50px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 6px;
 }
 
 header a {
@@ -29,14 +29,35 @@ header a {
   color: inherit;
 }
 
-header a.logo {
+header .logo {
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+header .items {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  margin-left: -30rem;
+  display: flex;
+  gap: 2.8rem;
 }
 
 header nav {
+  font-weight: bold;
+  font-size: 1.2rem;
   display: flex;
-  gap: 16px;
+  align-items: center;
+  gap: 2rem;
+}
+
+header nav .register {
+  background: linear-gradient(#02aab0 , #00cdac);
+  padding: 0.6rem 1rem;
+  border-radius: .6rem;
+  color: white;
 }
 
 div.post {
@@ -46,54 +67,371 @@ div.post {
   margin-bottom: 30px;
 }
 
-div.post div.text h2{
-  margin: 0;
-  font-size: 1.8rem;
+div.post div.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-div.post p.info{
-  margin:6px 0;
+div.post div.text h2 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+div.post p.info {
+  margin: 6px 0;
   color: #888;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: bold;
   display: flex;
   gap: 10px;
 }
 
-div.post p.info a.author{
-  color: #333;
+div.post p.info a.author {
+  color: #938e8e;
   text-decoration: none;
 }
 
-div.post p.summary{
-  margin:6px 0;
+div.post p.summary {
+  margin: 6px 0;
   line-height: 1.4rem;
 }
 
-form.login, form.register{
-  max-width: 400px;
-  margin: 0 auto;
+form.login, form.register {
+  border-radius: .6rem;
+  height: 60vh;
+  padding: 8% 5%;
+  background: linear-gradient(#02aab0 , #00cdac);
+  max-width: 40%;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 9rem;
 }
-input{
+
+form.login h1, form.register h1{
+  margin-top: -1rem;
+  color: white;
+  font-size: 2.6rem;
+}
+
+input {
+  outline: none;
+  font-size: 1.1rem;
   display: block;
   margin-bottom: 5px;
   width: 100%;
-  padding: 5px 7px;
+  padding: 7px 9px;
   border: 2px solid #ddd;
-  border-radius: 2px;
+  border-radius: .6rem;
   background-color: #fff;
 }
 
-button{
+button {
   width: 100%;
   display: block;
   background-color: #555;
   border: 0;
   color: white;
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 7px 0;
 }
 
-form h1{
+button.login, button.register{
+  background-color: white;
+  color: rgb(79, 67, 67);
+  font-size: 1.2rem;
+  border-radius: .6rem;
+}
+
+form h1 {
   text-align: center;
+}
+
+div.home {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+div.home h1 {
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.6rem;
+  margin-top: -1.6rem;
+}
+
+div.home h3 {
+  margin-top: -3rem;
+  color: #686c8a;
+}
+
+div.home p {
+  color: #686c8a;
+  font-weight: 700;
+  margin-top: 6rem;
+  font-size: 1.1rem;
+}
+
+div.fshow {
+  color: whitesmoke;
+  height: 76vh;
+  background-image: url("https://imgeng.jagran.com/images/2023/jan/amazon%20sale%2020231673497885930.jpg");
+  background-repeat: no-repeat;
+  margin-top: 4.6rem;
+}
+
+div.fshow p, div.fshow h2, div.fshow p a.fauthor, div.fshow p time {
+  color: whitesmoke;
+}
+
+div.fshow {
+  padding-top: 22rem;
+  padding-left: 2rem;
+}
+
+div.fshow div.fcat {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+div.fshow div.fcat p {
+  border: 2px solid white;
+  padding: 2px 10px;
+  border-radius: 40px;
+  margin-top: -.4rem;
+}
+
+div.fshow p {
+  font-size: 1.2rem;
+}
+
+div.fshow h2 {
+  margin-bottom: -1rem;
+  font-size: 2.2rem;
+}
+
+div.fshow p.finfo {
+  margin-bottom: -1.6rem;
+}
+
+div.m-post {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+div.home-main h1.featured-blogs {
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+div.fpost {
+  margin: 1rem 0 1rem 0;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.m-post div.fcat {
+  display: flex;
+  gap: 10px;
+}
+
+div.m-post div.fcat p {
+  border: 2px solid grey;
+  padding: 2px 10px;
+  border-radius: 40px;
+  margin-top: -.4rem;
+}
+
+
+div.footer-heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+div.footer-heading h1 {
+  font-size: 2.6rem;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -4px;
+}
+
+div.footer-heading button {
+  font-size: 1.1rem;
+  background: linear-gradient(#02aab0 , #00cdac);
+  border-radius: 40px;
+  width: 20%;
+  margin: auto;
+}
+
+div.footer-heading button:hover {
+  cursor: pointer;
+}
+
+footer{
+  background: linear-gradient(#02aab0 , #00cdac);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding: 2% 8% 2% 8%;
+}
+
+footer p{
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  color: white;
+  font-size: 1.1rem;
+  word-spacing: 4px;
+  text-decoration: none;
+}
+
+div.about p{
+  font-size: 1.1rem;
+}
+
+div.about h2{
+  font-size: 2.2rem;
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.about h1 {
+  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+div.about-story{
+  background: #f3f7f5;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 7rem;
+}
+div.about-story img{
+  margin: 1rem;
+  margin-bottom: -1rem;
+}
+
+div.mission{
+  margin-top: 30rem;
+  display: flex;
+  gap: 2rem;
+}
+
+div.mission div.mission-content{
+  width: 80%;
+}
+
+div.vision{
+  display: flex;
+  gap: 2rem;
+}
+
+div.vision div.vision-content{
+  width: 80%;
+}
+
+div.main-contact{
+  padding: 3rem;
+  border: 8px solid;
+  border-image: linear-gradient(to right,
+  #02aab0 , #00cdac);
+  border-image-slice: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  position: relative;
+  gap: 2rem;
+}
+
+div.main-contact h1{
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  font-size: 2.8rem;
+  color: whitesmoke;
+}
+
+div.main-contact div.contact-form p{
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin-bottom: 2.8rem;
+}
+
+div.main-contact div.contact-content{
+  width: 30%;
+}
+
+div.main-contact div.contact-form form{
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+div.contact-form form input{
+  border: none;
+  margin-bottom: 1.6rem;
+}
+
+div.contact-form form button{
+  margin-top: 1rem;
+  padding: 6px 0px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(123, 123, 123);
+  border-radius: 10px;
+}
+
+div.main-contact div.contact-form{
+  background: linear-gradient(#02aab0 , #00cdac);
+  width: 70%;
+  padding: 4.6rem;
+}
+
+
+div.contact-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.contact-content p{
+  margin-top: -.2rem;
+  font-size: 1.2rem;
+}
+
+div.contact-content h2{
+  font-size: 1.6rem;
+  margin-bottom: -.1rem;
+}
+
+div.contact-content span{
+  color: #938e8e;
+}
+
+div.contact-content div.chat{
+
 }

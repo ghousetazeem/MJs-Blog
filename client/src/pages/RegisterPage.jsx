@@ -4,7 +4,7 @@ export default function RegisterPage(){
             <h1>Register</h1>
             <input type="text" placeholder="username" />
             <input type="text" placeholder="password" />
-            <button>Register</button>
+            <button className="register">Register</button>
         </form>
     );
 }
