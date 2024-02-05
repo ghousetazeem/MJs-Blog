@@ -30,7 +30,7 @@ header a {
 }
 
 header .logo {
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -54,7 +54,7 @@ header nav {
 }
 
 header nav .register {
-  background: linear-gradient(#02aab0 , #00cdac);
+  background: linear-gradient(#02aab0, #00cdac);
   padding: 0.6rem 1rem;
   border-radius: .6rem;
   color: white;
@@ -67,7 +67,7 @@ div.post {
   margin-bottom: 30px;
 }
 
-div.post div.text{
+div.post div.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,14 +101,14 @@ form.login, form.register {
   border-radius: .6rem;
   height: 60vh;
   padding: 8% 5%;
-  background: linear-gradient(#02aab0 , #00cdac);
+  background: linear-gradient(#02aab0, #00cdac);
   max-width: 40%;
   margin: auto;
   margin-top: 6rem;
   margin-bottom: 9rem;
 }
 
-form.login h1, form.register h1{
+form.login h1, form.register h1 {
   margin-top: -1rem;
   color: white;
   font-size: 2.6rem;
@@ -136,7 +136,7 @@ button {
   padding: 7px 0;
 }
 
-button.login, button.register{
+button.login, button.register {
   background-color: white;
   color: rgb(79, 67, 67);
   font-size: 1.2rem;
@@ -154,7 +154,7 @@ div.home {
 }
 
 div.home h1 {
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4.6rem;
@@ -223,7 +223,7 @@ div.m-post {
 }
 
 div.home-main h1.featured-blogs {
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.6rem;
@@ -260,7 +260,7 @@ div.footer-heading {
 div.footer-heading h1 {
   font-size: 2.6rem;
   font-size: 72px;
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: -4px;
@@ -268,7 +268,7 @@ div.footer-heading h1 {
 
 div.footer-heading button {
   font-size: 1.1rem;
-  background: linear-gradient(#02aab0 , #00cdac);
+  background: linear-gradient(#02aab0, #00cdac);
   border-radius: 40px;
   width: 20%;
   margin: auto;
@@ -278,8 +278,8 @@ div.footer-heading button:hover {
   cursor: pointer;
 }
 
-footer{
-  background: linear-gradient(#02aab0 , #00cdac);
+footer {
+  background: linear-gradient(#02aab0, #00cdac);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,7 +289,7 @@ footer{
   padding: 2% 8% 2% 8%;
 }
 
-footer p{
+footer p {
   margin-top: -1rem;
   margin-bottom: -1rem;
   color: white;
@@ -298,19 +298,19 @@ footer p{
   text-decoration: none;
 }
 
-div.about p{
+div.about p {
   font-size: 1.1rem;
 }
 
-div.about h2{
+div.about h2 {
   font-size: 2.2rem;
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 div.about h1 {
-  background: -webkit-linear-gradient(#02aab0 , #00cdac);
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4.6rem;
@@ -319,7 +319,7 @@ div.about h1 {
   text-align: center;
 }
 
-div.about-story{
+div.about-story {
   background: #f3f7f5;
   left: 0;
   right: 0;
@@ -330,35 +330,36 @@ div.about-story{
   align-items: center;
   padding: 1rem 7rem;
 }
-div.about-story img{
+
+div.about-story img {
   margin: 1rem;
   margin-bottom: -1rem;
 }
 
-div.mission{
+div.mission {
   margin-top: 30rem;
   display: flex;
   gap: 2rem;
 }
 
-div.mission div.mission-content{
+div.mission div.mission-content {
   width: 80%;
 }
 
-div.vision{
+div.vision {
   display: flex;
   gap: 2rem;
 }
 
-div.vision div.vision-content{
+div.vision div.vision-content {
   width: 80%;
 }
 
-div.main-contact{
+div.main-contact {
   padding: 3rem;
   border: 8px solid;
   border-image: linear-gradient(to right,
-  #02aab0 , #00cdac);
+      #02aab0, #00cdac);
   border-image-slice: 1;
   display: flex;
   justify-content: space-between;
@@ -367,36 +368,36 @@ div.main-contact{
   gap: 2rem;
 }
 
-div.main-contact h1{
+div.main-contact h1 {
   margin-top: -1rem;
   margin-bottom: -1rem;
   font-size: 2.8rem;
   color: whitesmoke;
 }
 
-div.main-contact div.contact-form p{
+div.main-contact div.contact-form p {
   color: whitesmoke;
   font-size: 1.2rem;
   margin-bottom: 2.8rem;
 }
 
-div.main-contact div.contact-content{
+div.main-contact div.contact-content {
   width: 30%;
 }
 
-div.main-contact div.contact-form form{
+div.main-contact div.contact-form form {
   color: white;
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
 }
 
-div.contact-form form input{
+div.contact-form form input {
   border: none;
   margin-bottom: 1.6rem;
 }
 
-div.contact-form form button{
+div.contact-form form button {
   margin-top: 1rem;
   padding: 6px 0px;
   font-size: 1.2rem;
@@ -405,33 +406,189 @@ div.contact-form form button{
   border-radius: 10px;
 }
 
-div.main-contact div.contact-form{
-  background: linear-gradient(#02aab0 , #00cdac);
+div.main-contact div.contact-form {
+  background: linear-gradient(#02aab0, #00cdac);
   width: 70%;
   padding: 4.6rem;
 }
 
 
-div.contact-content{
+div.contact-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-div.contact-content p{
+div.contact-content p {
   margin-top: -.2rem;
   font-size: 1.2rem;
 }
 
-div.contact-content h2{
+div.contact-content h2 {
   font-size: 1.6rem;
   margin-bottom: -.1rem;
 }
 
-div.contact-content span{
+div.contact-content span {
   color: #938e8e;
 }
 
-div.contact-content div.chat{
+div.contact-content div.chat {}
 
+/* media screens */
+
+
+
+
+
+@media screen and (max-width:600px) {
+  div.about h1 {
+    font-size: 2rem;
+  }
+
+  div.about-story img {
+    max-width: 270px;
+  }
+
+  div.about-story {
+    padding: 1rem 7rem;
+  }
 }
+
+
+
+/* media queries for mission div */
+@media screen and (max-width:925px) {
+  div.mission div.mission-content {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width:680px) {
+  div.mission div.mission-content {
+    padding-top: 500px;
+  }
+}
+
+@media screen and (max-width:544px) {
+  div.mission div.mission-content {
+    padding-top: 700px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  div.mission div.mission-content {
+    padding-top: 900px;
+  }
+}
+
+@media screen and (max-width:465px) {
+  div.mission div.mission-content {
+    padding-top: 1200px;
+  }
+}
+
+@media screen and (max-width:439px) {
+  div.mission div.mission-content {
+    padding-top: 1600px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  div.mission {
+    display: table;
+  }
+
+
+
+
+
+
+  /* media queries for vision div */
+  @media screen and (max-width:925px) {
+    div.mission div.vision-content {
+      padding-top: 200px;
+    }
+  }
+
+  @media screen and (max-width:680px) {
+    div.mission div.vision-content {
+      padding-top: 500px;
+    }
+  }
+
+  @media screen and (max-width:544px) {
+    div.mission div.vision-content {
+      padding-top: 700px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    div.mission div.vision-content {
+      padding-top: 900px;
+    }
+  }
+
+  @media screen and (max-width:465px) {
+    div.mission div.vision-content {
+      padding-top: 1200px;
+    }
+  }
+
+  @media screen and (max-width:439px) {
+    div.mission div.vision-content {
+      padding-top: 1600px;
+    }
+  }
+
+  @media screen and (max-width: 925px) {
+    div.vision {
+      display: table;
+    }
+
+
+
+
+    /* media queries for contact pg */
+
+
+    @media screen and (max-width:584px) {
+      div.main-contact {
+        right: 30px;
+      }
+    }
+
+    @media screen and (max-width:389px) {
+      div.main-contact {
+        right: 40px;
+      }
+    }
+
+    @media screen and (max-width:960px) {
+      div.main-contact {
+        display: table;
+      }
+
+      div.main-contact div.contact-form {
+        width: 100%;
+        padding: 4.6rem;
+      }
+
+      div.main-contact div.contact-content {
+        display: contents;
+      }
+    }
+
+    @media screen and (max-width:656px) {
+      div.main-contact div.contact-form {
+        width: 110%;
+        padding: 4.6rem;
+      }
+
+      div.main-contact {
+        padding-left: 25px;
+      }
+    }
+
+  }
+} 
